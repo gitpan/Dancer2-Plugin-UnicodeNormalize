@@ -9,6 +9,7 @@ build_requires:
   FindBin: 0
   Test::More: 0
   autodie: 0
+  charnames: 0
   utf8: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
@@ -26,4 +27,4 @@ requires:
   Unicode::Normalize: 0
   strict: 0
   warnings: 0
-version: 0.02
+version: 0.03

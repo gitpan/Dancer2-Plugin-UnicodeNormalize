@@ -34,9 +34,10 @@ my %WriteMakefileArgs = (
     "FindBin" => 0,
     "Test::More" => 0,
     "autodie" => 0,
+    "charnames" => 0,
     "utf8" => 0
   },
-  "VERSION" => "0.02",
+  "VERSION" => "0.03",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -54,6 +55,7 @@ my %FallbackPrereqs = (
   "Test::More" => 0,
   "Unicode::Normalize" => 0,
   "autodie" => 0,
+  "charnames" => 0,
   "strict" => 0,
   "utf8" => 0,
   "warnings" => 0
