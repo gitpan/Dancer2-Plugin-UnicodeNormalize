@@ -12,6 +12,7 @@ t/02-upload.t
 t/03-form.t
 t/04-undef.t
 t/author-critic.t
+t/author-versions.t
 t/files/1.txt
 t/files/2.txt
 t/lib/TestApp.pm
